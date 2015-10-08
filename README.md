@@ -1,6 +1,7 @@
 CreateFileWithDate
 
 This little script allows create the number of files you want with a concrete access and modification date.
+Really is a bulk file generator, but has a main goal... create the files with the modif date you want
 
     Use:
 
@@ -21,18 +22,21 @@ are passing as argument. This date (the real name) only appears in the name of t
 
 This is sample of a bunch of files created with the script:
 
-            file_12_20151008073616.txt
-            file_11_20151008073616.txt
-            file_10_20151008073616.txt
-            file_09_20151008073616.txt
-            file_08_20151008073616.txt
-            file_07_20151008073616.txt
-            file_06_20151008073616.txt
-            file_05_20151008073616.txt
-            file_04_20151008073616.txt
-            file_03_20151008073616.txt
-            file_02_20151008073616.txt
-            file_01_20151008073616.txt
+    $ ls -lrt
+    total 48
+    -rw-rw-r-- 1 alwaro alwaro 67 feb  1  1990 file_12_20151008082641.txt
+    -rw-rw-r-- 1 alwaro alwaro 67 feb  1  1990 file_11_20151008082641.txt
+    -rw-rw-r-- 1 alwaro alwaro 67 feb  1  1990 file_10_20151008082641.txt
+    -rw-rw-r-- 1 alwaro alwaro 66 feb  1  1990 file_09_20151008082641.txt
+    -rw-rw-r-- 1 alwaro alwaro 66 feb  1  1990 file_08_20151008082641.txt
+    -rw-rw-r-- 1 alwaro alwaro 66 feb  1  1990 file_07_20151008082641.txt
+    -rw-rw-r-- 1 alwaro alwaro 66 feb  1  1990 file_06_20151008082641.txt
+    -rw-rw-r-- 1 alwaro alwaro 66 feb  1  1990 file_05_20151008082641.txt
+    -rw-rw-r-- 1 alwaro alwaro 66 feb  1  1990 file_04_20151008082641.txt
+    -rw-rw-r-- 1 alwaro alwaro 66 feb  1  1990 file_03_20151008082641.txt
+    -rw-rw-r-- 1 alwaro alwaro 66 feb  1  1990 file_02_20151008082641.txt
+    -rw-rw-r-- 1 alwaro alwaro 66 feb  1  1990 file_01_20151008082641.txt
+
 
 The created files are not empty. The content is simply a two lines content.
 
