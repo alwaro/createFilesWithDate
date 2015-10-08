@@ -2,9 +2,9 @@ CreateFileWithDate
 
 This little script allows create the number of files you want with a concrete access and modification date.
 
-Use:
+    Use:
 
-createFilesWithDate num dd/mm/yyyy path
+    createFilesWithDate num dd/mm/yyyy path
 
     num --> Is the number of files you want to create
     dd/mm/yyyy --> The date to use as modification and access date in the new files
@@ -40,7 +40,7 @@ The first line is like a counter showing the number of file and the total.
 
 The 2nd and last file is itself name.
 
-$ cat sample/file_07__20151008073616.txt
+    $ cat sample/file_07_20151008073616.txt
 
     File number 7 from 12
     Name....: sample/file_07_20151008073616.txt
